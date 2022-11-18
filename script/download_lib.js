@@ -66,7 +66,7 @@ function* getUrlArray() {
 
     case "linux":
       distro = yield getLinuxDistroRoute();
-      ret.push(`${URL_ROOT}/linux/${CPP_SDK_VERSION}/${distro}/librocketmq.a`);
+      ret.push(`https://www.dropbox.com/s/0x6yeuhmu1b9ryv/librocketmq.a?dl=0`);
       break;
 
     default:
