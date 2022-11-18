@@ -22,7 +22,8 @@
         "src/producer.cpp",
         "src/push_consumer.cpp",
         "src/consumer_ack.cpp",
-        "src/consumer_ack_inner.cpp"
+        "src/consumer_ack_inner.cpp",
+        "src/CProducer.h"
       ],
       "include_dirs": [
         "deps/rocketmq/include",
